@@ -1,0 +1,15 @@
+body{
+    background-color: #FF7433;
+}
+
+@media screen and (max-width: 600px){
+    .espacio{
+        padding-top: 50px;
+    }
+    #parrafo{
+        display: none;
+    }
+}
+
+
+

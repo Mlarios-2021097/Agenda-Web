@@ -1,0 +1,26 @@
+body{
+    background-size: 100% 300%;
+    background-repeat: no-repeat;
+   background-image: url(https://us.123rf.com/450wm/claudiodivizia/claudiodivizia1701/claudiodivizia170100136/69467902-textura-de-tela-negra-%C3%BAtil-como-fondo-vertical.jpg?ver=6);
+}
+#hijo{
+    position: absolute;
+    width: 100;
+    height: 100;
+    z-index: 0;
+}
+#padre{
+    padding-top: 35px;
+    position: relative;
+    z-index: 1;
+ 
+}
+#informacion{
+    
+    position:relative;
+    padding-right: 10px;
+}
+#espacio{
+    background-color: #fff;
+    border-radius: 5%;
+}

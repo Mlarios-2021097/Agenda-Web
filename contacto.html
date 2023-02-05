@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="asstes/css/contacto.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Condensed" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <title>Contacto</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <h3 style="color: aliceblue;">Opciones de usuario</h3>
+        <button class="navbar-toggler btn btn-success" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#"><!-- Button trigger modal -->
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Agregar
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel"><i class="fa-solid fa-users"></i></h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form class="needs-validation" novalidate>
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                              required>
+
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Numero de telefono</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1" required>
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Correo Electronico</label>
+                            <input type="email" class="form-control" id="exampleInputPassword1" required>
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Descripcion</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1" required>
+                          </div>
+
+
+                          <button type="submit" class="btn btn-success">Submit</button>
+                        </form>
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+            </li>
+            <li>
+              <img width="50px" height="50px"
+                src="https://cdn.icon-icons.com/icons2/624/PNG/512/Add_User-80_icon-icons.com_57380.png">
+            
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><!-- Button trigger modal -->
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal01">
+                  Editar
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal01" tabindex="-1" aria-labelledby="exampleModalLabel01"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel01"><i class="fa-solid fa-users"></i></h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="modal-body">
+                          <form class="needs-validation" novalidate>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">ID_</label>
+                              <input type="text" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" required>
+
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                              <input type="text" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" required>
+
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Numero de telefono</label>
+                              <input type="text" class="form-control" id="exampleInputPassword1" required>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Correo Electronico</label>
+                              <input type="email" class="form-control" id="exampleInputPassword1" required>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Descripcion</label>
+                              <input type="text" class="form-control" id="exampleInputPassword1" required>
+                            </div>
+
+
+                            <button type="submit" class="btn btn-success">Submit</button>
+                          </form>
+
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-success">Save changes</button>
+                        </div>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <img width="50px" height="50px" src="https://img.icons8.com/office/480/edit-user-male--v1.png" alt="">
+            </li>
+            <li class="nav-item">
+
+              <a class="nav-link " href="perfil.html"><button type="button" class="btn btn-success">Pefil de
+                  usuario</button></a>
+            </li>
+            <li class="nav-item">
+              <img width="50px" height="50px"
+                src="https://www.pngplay.com/wp-content/uploads/12/User-Avatar-Profile-PNG-Clipart-Background.png"
+                alt="">
+            </li>
+            <li class="nav-item">
+
+              <a class="nav-link " href="toDoList.html"><button type="button" class="btn btn-success">Lista</button></a>
+            </li>
+            <li class="nav-item">
+              <img width="50px" height="50px" src="https://img.freepik.com/iconos-gratis/lista-verificacion_318-586418.jpg" alt="">
+            </li>
+            <li class="nav-item">
+
+              <a class="nav-link " href="index.html"><button type="Cerra sesion" class="btn btn-success">
+                  Cerrar Sesión</button></a>
+            </li>
+            <li class="nav-item">
+              <img width="50px" height="50px"
+                src="https://cdn.pixabay.com/photo/2017/05/29/23/02/logging-out-2355227_960_720.png"
+                alt="">
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>  
+    <br>
+    
+    <div class="container text-center espacio">
+      <div class="row">
+        <div id="user" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 ">
+
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ">
+              <img width="100px" height="100px" src="https://www.iconpacks.net/icons/2/free-user-icon-3296-thumb.png">
+
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
+              <h4>
+                Nombre de usuario
+              </h4>
+              <h4>
+                Correo de usuario
+              </h4>
+            </div>
+            <div class="col-lg3 col-md-3  ">
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+  </header>
+
+
+  <div id="datos" class="container text-center">
+    <div class="row">
+      <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 ">
+        <div style="background-color:#EFEAE8;" class="cuadros">
+
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-success" aria-current="true">Contactos</li>
+
+            <div> 
+              <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel1"> <i class="fa-solid fa-users"></i></h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal2.2" tabindex="-1" aria-labelledby="exampleModalLabel2.2" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel2.2"><i class="fa-solid fa-users"></i></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="3" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel3"><i class="fa-solid fa-users"></i></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel4"><i class="fa-solid fa-users"></i></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel"><i class="fa-solid fa-users"></i></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="exampleModal3.3" tabindex="-1" aria-labelledby="exampleModalLabel3.3" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel.3."><i class="fa-solid fa-users"></i></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal4.4" tabindex="-1" aria-labelledby="exampleModalLabel4.4" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel4.4"><i class="fa-solid fa-users"></i></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal5.5" tabindex="-1" aria-labelledby="exampleModalLabel5.5" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel5.5"><i class="fa-solid fa-users"></i></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <li class="list-group-item"><i class="fa-solid fa-user"></i>&ensp;&ensp;|&ensp;&ensp;Carla Ramirez
+              &ensp;&ensp;|&ensp;&ensp; 45878569 &ensp;&ensp;|&ensp;&ensp;<button type="button" class="btn btn-secondary"
+                data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                Detalles
+              </button></li>
+            <li id="list2" class="list-group-item"><i class="fa-solid fa-user"></i>&ensp;&ensp;|&ensp;&ensp;Mafer Palin
+              &ensp;&ensp;|&ensp;&ensp;45217854&ensp;&ensp;|&ensp;&ensp;<button type="button" class="btn btn-secondary"
+                data-bs-toggle="modal" data-bs-target="#exampleModal2.2">
+                Detalles
+              </button></a></li>
+            <li id="list3" class="list-group-item"><i class="fa-solid fa-user"></i>&ensp;&ensp;|&ensp;&ensp;Maria Juarez
+              &ensp;&ensp;|&ensp;&ensp;23658965&ensp;&ensp;|&ensp;&ensp;<button type="button" class="btn btn-secondary"
+                data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                Detalles
+              </button></a></li>
+            <li id="list4" class="list-group-item"><i class="fa-solid fa-user"></i>&ensp;&ensp;|&ensp;&ensp;Dulce
+              Fernanda &ensp;&ensp;|&ensp;&ensp;12548569 &ensp;&ensp;|&ensp;&ensp;<button type="button"
+                class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                Detalles
+              </button></a></li>
+            <li id="list5" class="list-group-item"><i class="fa-solid fa-user"></i>&ensp;&ensp;|&ensp;&ensp;Michi
+              Fuentes &ensp;&ensp;|&ensp;&ensp;45872365 &ensp;&ensp;|&ensp;&ensp;<button type="button"
+                class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal3.3">
+                Detalles
+              </button></a></li>
+            <li id="list2" class="list-group-item"><i class="fa-solid fa-user"></i>&ensp;&ensp;|&ensp;&ensp;Jose Palin
+              &ensp;&ensp;|&ensp;&ensp;45217854&ensp;&ensp;|&ensp;&ensp;<button type="button" class="btn btn-secondary"
+                data-bs-toggle="modal" data-bs-target="#exampleModal4.4">
+                Detalles
+              </button></a></li>
+            <li id="list3" class="list-group-item"><i class="fa-solid fa-user"></i>&ensp;&ensp;|&ensp;&ensp;Andre Juarez
+              &ensp;&ensp;|&ensp;&ensp;23658965&ensp;&ensp;|&ensp;&ensp;<button type="button" class="btn btn-secondary"
+                data-bs-toggle="modal" data-bs-target="#exampleModal5.5">
+                Detalles
+              </button></a></li>
+            
+          </ul>
+        </div>
+
+      </div>
+      <br>
+
+   
+        <div id="pad" class="col-lg-5 col-md-5 col-sm-5 col-xs-5 ">
+          <div style="background-color:#EFEAE8;" class="cuadros">
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-success" aria-current="true">Contactos Favoritos </li>
+              <li class="list-group-item"><i class="fa-solid fa-user"></i>&ensp;&ensp;|&ensp;&ensp;Carla Ramirez
+                &ensp;&ensp;|&ensp;&ensp; 45878569 |&ensp;&ensp;<i class="fa-solid fa-heart-circle-plus"></i></li>
+              <li class="list-group-item"><i class="fa-solid fa-user"></i>&ensp;&ensp;|&ensp;&ensp;Michi Fuentes
+                &ensp;&ensp;|&ensp;&ensp;45872365|&ensp;&ensp;<i class="fa-solid fa-heart-circle-plus"></i></li>
+                <li class="list-group-item"><i class="fa-solid fa-user"></i>&ensp;&ensp;|&ensp;&ensp;Michi Fuentes
+                  &ensp;&ensp;|&ensp;&ensp;45872365|&ensp;&ensp;<i class="fa-solid fa-heart-circle-plus"></i></li>
+                  <li class="list-group-item"><i class="fa-solid fa-user"></i>&ensp;&ensp;|&ensp;&ensp;Michi Fuentes
+                    &ensp;&ensp;|&ensp;&ensp;45872365|&ensp;&ensp;<i class="fa-solid fa-heart-circle-plus"></i></li>
+            </ul>
+          </div>
+        </div>
+      
+      
+    </div>
+  </div>
+  <br>
+  <br>
+
+  </div>
+
+    
+
+</body>
+<script type="text/javascript" src="asstes/js/datos.js"></script>
+<script type="text/javascript" src="asstes/js/peticion.js"></script>
+<script type="text/javascript" src="asstes/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+<script type="text/javascript" src="asstes/js/jquery-3.6.0.js"></script>
+
+</html>

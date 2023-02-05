@@ -1,0 +1,43 @@
+ 
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+  }
+.cuadros{
+    border-radius: 10px;
+    border: 4px;
+    border-color:darkgrey;
+    background-color: #0000;
+}
+#datos{
+    padding-top: 30px;
+    
+}
+body{
+    background-size: 100% 300%;
+    background-repeat: no-repeat;
+    background-image: url(https://i.pinimg.com/originals/3c/a5/9b/3ca59be32b3612685003ada310306daa.jpg);
+}
+#user{
+    background-color: #4eaf4d;
+    border-radius: 10px;
+    
+}
+.espacio{
+    padding-top: 25px;
+}
+#pad{
+  padding-top: 10px;
+}
